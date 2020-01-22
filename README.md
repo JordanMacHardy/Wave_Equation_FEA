@@ -11,7 +11,7 @@ The user input parameter theta should be from 0-1, which blend between using an 
 
 included files:
 
--main.m
+- main.m
 - mesh and boundary condition data: 
     - dsg-conectivity.dat
     - dsg-coordinates.dat
