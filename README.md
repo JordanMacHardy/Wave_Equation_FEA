@@ -1,4 +1,16 @@
 # Wave_Equation_FEA
-Solves The Wave Equation For Specified Boundary Conditions
+Solves The Wave Equation For Specified Boundary Conditions.
+See "derivation" PDF for equations and derivation.
+See interpretation of results for my musings.
 
-https://latex.codecogs.com/gif.latex?%5Cddot%7Bu%7D%20-%20c%5E2%20%5Cbigtriangledown%20%5Ccdot%20%5Cbigtriangledown%20u%20%3D%20f%20%5Chspace%7B40%7Din%3A%20%5COmega%20%5Ctimes
+The user input parameter theta should be from 0-1, which blend between using an explicit or implicit numerical method for solving. A theta of .5 uses the Crank Nicholson method.
+
+included files:
+-main.m
+- Mesh and boundary condition data: 
+    - dsg-conectivity.dat
+    - dsg-coordinates.dat
+    - dsg-dirichelet.dat
+    - dsg-neumann.dat
+    - derivation.pdf
+    - interpretation.pdf
