@@ -17,4 +17,9 @@ included files:
     - dsg-coordinates.dat
     - dsg-dirichelet.dat
     - dsg-neumann.dat
+- Functions
+    - g.m
+    - gdotdot.m
+    - klocal.m
+    - mlocal.m
 
